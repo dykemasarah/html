@@ -212,6 +212,25 @@ a:after {
 .section-solid-white .section-title-border {
   background: rgba(0, 0, 0, 0.13);
 }
+
+
+.section-solid-gray {
+  background: #2d2e2e;
+  color: #fff;
+}
+.section-solid-gray h1,
+.section-solid-gray h2,
+.section-solid-gray h3,
+.section-solid-gray h4,
+.section-solid-gray h5,
+.section-solid-gray h6 {
+  color: #fff;
+}
+.section-solid-gray .section-title-border {
+  background: rgba(0, 0, 5, 0.13);
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .section {
