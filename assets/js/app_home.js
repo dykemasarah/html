@@ -21,7 +21,7 @@ $(function () {
 
 
 	$.backstretch_home([
-		"./assets/img/background/us.JPG"
+		"./assets/img/background/us.jpg"
 	], {duration: 3800, fade: 1500});
 	
 	/* ---------------------------------------------------------
