@@ -10,7 +10,7 @@ var Hangman = (function () {
         
         // Dom is ready
         this.elId       = elId;
-        this.words      = ['SO LONG', 'FAREWELL', 'TWO WEEKS', 'THIS IS MY NOTICE', 'GOODBYE HOMEAWAY'];
+        this.words      = ['SO LONG', 'FAREWELL SECURITY', 'BEST OF LUCK', 'OH CRAP', 'TWO WEEKS', 'THIS IS MY NOTICE', 'GOODBYE HOMEAWAY'];
     }
 
     Hangman.prototype.reset = function () {
@@ -61,7 +61,7 @@ var Hangman = (function () {
 
             if (this.MISTAKES === 9) {
                 // Game Over
-                this.showElementByIdWithContent(this.elId + "_end", "<b>Sarah's last day will be Jan 17, 2018.</br></b></br><i><font color=\"red\"; size=\"3\";><b>INCORRECT</b>, The Phrase Was: \"" + this.WORD + "\"</font></i>");
+                this.showElementByIdWithContent(this.elId + "_end", "<b>Sarah's last day will be Jan 17, 2018.</br></b></br><i><font color=\"red\"; size=\"3\";><b>Incorrect</b>, the phrase was: \"" + this.WORD + "\"</font></i>");
                 document.getElementById("countdown").style.opacity = "1";
                 this.STOPPED = true;
                 return;
@@ -70,7 +70,7 @@ var Hangman = (function () {
         } else if (this.WORD.indexOf(this.getGuessedfWord()) !== -1) {
             // Victory
             document.getElementById("countdown").style.opacity = "1";
-            this.showElementByIdWithContent(this.elId + "_end", "<b>Sarah's last day will be Jan 17, 2018.</br></b></br><i><font color=\"green\"; size=\"3\";><b>Correct</b>, The Phrase Was: \"" + this.WORD + "\"</font></i>");
+            this.showElementByIdWithContent(this.elId + "_end", "<b>Sarah's last day will be Jan 17, 2018.</br></b></br><i><font color=\"green\"; size=\"3\";><b>Correct</b>, the phrase was: \"" + this.WORD + "\"</font></i>");
             this.STOPPED = true;
             return;
         }
