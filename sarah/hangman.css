@@ -1,0 +1,195 @@
+html,body { 
+    font-size: 1.2em;
+    font-family: 'Arvo', serif;
+     text-align: center;
+}
+
+#hangm_gameover, #hangm_victory {
+    font-size: 2em;
+}
+
+section#hangman {
+    height: 30.5em;
+    overflow: hidden;
+}
+
+#hangm {
+    text-align: center;
+}
+
+.h {
+    opacity: 0;
+}
+
+#hangm_animation {
+    height: 10em;
+    margin: 0 auto;
+    width: 11em;
+}
+
+#hangm_word, 
+#hangm_guesses {
+    letter-spacing: 1em;
+}
+
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+input[type=text]:focus {
+    width: 177px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 3px solid #555;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.man_head {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px; 
+    background-color: #FFCC99;
+    position: relative;
+    bottom: 200px;
+    left: 112px;
+	/* width and height can be anything, as long as they're equal */
+}
+
+
+.man_upper {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-bottom: 60px solid blue;
+  /* 104 = 120 * 0.866 */
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom-color: #008CBA;
+  left: 97px;
+  bottom: 210px;
+}
+
+.man_upper_left {
+    background: #000;
+    width: 30px;
+    height: 7px;
+    position: relative;
+    left: 87px;
+    bottom: 252px;
+}
+
+.man_upper_right {
+    background: #000;
+    width: 30px;
+    height: 7px;
+    position: relative;
+    left: 147px;
+    bottom: 258px;
+}
+
+.man_lower_left {
+    background: #000;
+    width: 7px;
+    height: 30px;
+    position: relative;
+    left: 115px;
+    bottom: 226px;
+}
+
+.man_lower_right {
+    background: #000;
+    width: 7px;
+    height: 30px;
+    left: 142px;
+    position: relative;
+    bottom: 255px;
+}
+
+.man_eye_left {
+  background: transparent;
+  color: #000;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: .5em;
+  font-weight: bold;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: 121px;
+  bottom: 383px;
+  border-radius: 5px;
+}
+
+.man_eye_right {
+  background: transparent;
+  color: #000;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: .5em;
+  font-weight: bold;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: 134px;
+  bottom: 393px;
+  border-radius: 5px;
+}
+
+.man_mouth {
+  width: 10px;
+  height: 12px;
+  background: #000;
+  border-radius: 50%;
+  position: relative;
+  left: 127px;
+  bottom: 390px;
+}
+
+.pole_h {
+    background: #000;
+    width: 90px;
+    height: 8px;
+    position: relative;
+    left: 46px;
+}
+
+.pole_b {
+    background: #000;
+    width: 140px;
+    height: 8px;
+    left: 0px;
+    position: relative;
+    bottom: 231px;
+}
+
+.pole_v {
+    width: 8px;
+    height: 200px;
+    background: #000;
+    left: 46px;
+    position: relative;
+}
+
+.rope {
+    width: 6px;
+    height: 40px;
+    background-color: #000;
+    position: relative;
+    bottom: 200px;
+    left: 130px;
+}
