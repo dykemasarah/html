@@ -1,6 +1,6 @@
 /**
-* Hangman Javascript class
-* Author: @jelofsson
+* Farewell Hangman
+* Author: @dykemasarah
 **/
 var Hangman = (function () {
     
