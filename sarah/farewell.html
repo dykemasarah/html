@@ -1,5 +1,16 @@
 <html>
     <head>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109212617-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-109212617-1');
+		</script>
+        
+        
         <link rel="stylesheet" href="hangman.css" />
         <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="hangman.js"></script>
@@ -56,7 +67,7 @@
 </html>
 
 <script>
-    var countDownDate = new Date("Jan 19, 2018 15:37:24").getTime();
+    var countDownDate = new Date("Jan 19, 2018 18:00:00").getTime();
     var x = setInterval(function() {
         var now = new Date().getTime();
 
@@ -67,7 +78,7 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("countdown").innerHTML = days + "d  " + hours + "h  " + minutes + "m  " + seconds + "s  ";
 
         
 
