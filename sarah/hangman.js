@@ -38,7 +38,8 @@
 console.log("If you are trying to reverse engineer my code, don't worry, there is nothing malicious...")
 
 // hehe
-new Audio('http://www.soundboard.com/mediafiles/10/101443-244c91f7-5a53-471c-8a0f-8ffa9f316071.mp3').play()
+// new Audio('http://www.soundboard.com/mediafiles/10/101443-244c91f7-5a53-471c-8a0f-8ffa9f316071.mp3').play()
+new Audio('../../assets/docs/i_will.mp3').play()
 
 var Hangman = (function () {
     
