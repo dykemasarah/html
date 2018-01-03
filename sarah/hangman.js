@@ -45,7 +45,7 @@ var Hangman = (function () {
         
         // Dom is ready
         this.elId       = elId;
-        this.words      = ['SO LONG', 'ANOTHER ONE BITES THE DUST', 'FAREWELL SECURITY', 'BEST OF LUCK', 'OH CRAP', 'TWO WEEKS', 'THIS IS MY NOTICE', 'GOODBYE HOMEAWAY'];
+        this.words      = ['SO LONG', 'FAREWELL FRIENDS', 'BEST OF LUCK', 'OH CRAP', 'TWO WEEKS', 'TIME TO GET GOING'];
     }
 
     Hangman.prototype.reset = function () {
