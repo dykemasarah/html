@@ -49,7 +49,7 @@ var Hangman = (function () {
         
         // Dom is ready
         this.elId       = elId;
-        this.words      = ['SO LONG', 'FAREWELL FRIENDS', 'BEST OF LUCK', 'OH CRAP', 'TWO WEEKS', 'TIME TO GET GOING'];
+        this.words      = ['I WILL REMEMBER YOU', 'WILL YOU REMEMBER ME', 'GOOD TEAM IS GOOD', 'PEACE', 'SO LONG', 'FAREWELL FRIENDS', 'BEST OF LUCK', 'OH CRAP', 'TWO WEEKS', 'TIME TO GET GOING'];
     }
 
     Hangman.prototype.reset = function () {
